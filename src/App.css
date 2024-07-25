@@ -52,6 +52,9 @@ header h1 {
   .navbar .nav-link {
     color: #212529;
   }
+  .navbar .nav-link p {
+    color: #212529;
+  }
 }
 @media only screen and (max-width: 768px) {
   header h1 {
