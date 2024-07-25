@@ -1,0 +1,35 @@
+.home header {
+  background-image: linear-gradient(
+      rgba(5, 10, 35, 0.60),
+      rgba(5, 10, 35, 0.60)
+    ),
+    url(../../utilities/images/homepage.jpeg);
+  background-size: cover; /* Optional: Cover the entire header area */
+  background-position: center; /* Optional: Center the background image */
+}
+h2,
+p {
+  color: #eadcd9;
+}
+h1 {
+  color: #983e4a;
+}
+header {
+  background-size: cover;
+  background-position: center;
+}
+.banners {
+  background-image: linear-gradient(
+      rgba(5, 10, 35, 0.75),
+      rgba(5, 10, 35, 0.75)
+    ),
+    url(../../utilities/images/logo.png);
+  background-size: cover; /* Optional: Cover the entire header area */
+  background-position: center; /* Optional: Center the background image */
+}
+.scale-hover-effect {
+  transition: transform 0.5s ease;
+}
+.scale-hover-effect:hover {
+  transform: scale(1.05);
+}
