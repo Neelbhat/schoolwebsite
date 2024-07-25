@@ -76,16 +76,14 @@ const Students = () => {
       >
         <div className="container d-flex flex-column align-items-center">
           <h1 className="text-center fw-semibold">
-            Life at Springdale Public School
+            Meet Our Esteemed Faculty Members
           </h1>
-          <p>
-            "Welcome to Springdale Public School, where we nurture young minds
-            for a brighter future."
-          </p>
+
           <div className="d-flex flex-column flex-sm-row align-items-center">
             <Link to="/contact" className="text-decoration-none text-danger">
               <button
                 type="button"
+                style={{ marginBottom: "5px" }}
                 className="btn btn-danger btn-lg mx-0 mx-sm-2 my-sm-0"
               >
                 Contact Us

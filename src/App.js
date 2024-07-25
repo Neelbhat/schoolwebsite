@@ -10,6 +10,7 @@ import Faculty from "./pages/Faculty/Faculty";
 import Contact from "./pages/Contact/Contact";
 import Students from "./pages/Students/Students";
 import * as React from "react";
+import "./App.css";
 
 function App() {
   return (
@@ -102,7 +103,7 @@ function App() {
         <Route path="/students" element={<Students />} />
       </Routes>
 
-      <footer>
+      <footer className="footer">
         <div className="container my-5">
           <div className="row d-flex justify-content-between align-items-center">
             <div className="col-md-4">

@@ -1,8 +1,5 @@
 .home header {
-  background-image: linear-gradient(
-      rgba(5, 10, 35, 0.60),
-      rgba(5, 10, 35, 0.60)
-    ),
+  background-image: linear-gradient(rgba(5, 10, 35, 0.6), rgba(5, 10, 35, 0.6)),
     url(../../utilities/images/homepage.jpeg);
   background-size: cover; /* Optional: Cover the entire header area */
   background-position: center; /* Optional: Center the background image */
@@ -32,4 +29,7 @@ header {
 }
 .scale-hover-effect:hover {
   transform: scale(1.05);
+}
+.text {
+  color: black;
 }

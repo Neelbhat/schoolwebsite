@@ -8,16 +8,14 @@ const Admissions = () => {
       <header className="h-100 min-vh-100 d-flex align-items-center">
         <div className="container d-flex flex-column align-items-center">
           <h2>Welcome to</h2>
-          <h1 className="text-center fw-semibold">Springdale Public School</h1>
-          <p>
-            "Welcome to Springdale Public School, where we nurture young minds
-            for a brighter future."
-          </p>
+          <h1 className="text-center fw-semibold">Admissions</h1>
+
           <div className="d-flex flex-column flex-sm-row align-items-center">
             <Link to="/contact" className="text-decoration-none text-danger">
               <button
                 type="button"
                 className="btn btn-danger btn-lg mx-0 mx-sm-2 my-sm-0"
+                style={{ marginBottom: "5px" }}
               >
                 Contact Us
               </button>
